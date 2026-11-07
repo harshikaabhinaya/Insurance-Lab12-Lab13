@@ -1,0 +1,46 @@
+{
+    "model_name": "Gradient Boosting",
+    "metrics": {
+        "model": "Gradient Boosting",
+        "mae": 2535.0620451569002,
+        "rmse": 4271.894267589475,
+        "r2": 0.9006885528992274
+    },
+    "all_model_metrics": [
+        {
+            "model": "Gradient Boosting",
+            "mae": 2535.0620451569002,
+            "rmse": 4271.894267589475,
+            "r2": 0.9006885528992274
+        },
+        {
+            "model": "Random Forest",
+            "mae": 2563.887977345896,
+            "rmse": 4642.212341781754,
+            "r2": 0.8827242217085642
+        },
+        {
+            "model": "Linear Regression",
+            "mae": 4177.045561036324,
+            "rmse": 5956.342894363587,
+            "r2": 0.8069287081198012
+        },
+        {
+            "model": "Ridge Regression",
+            "mae": 4185.406966823992,
+            "rmse": 5964.276525877423,
+            "r2": 0.806414037747477
+        }
+    ],
+    "training_rows": 1337,
+    "feature_columns": [
+        "age",
+        "bmi",
+        "children",
+        "sex",
+        "smoker",
+        "region"
+    ],
+    "target": "charges",
+    "trained_at": "2026-11-07T05:52:14.358315+00:00"
+}

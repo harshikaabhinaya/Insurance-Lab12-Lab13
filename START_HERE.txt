@@ -1,0 +1,12 @@
+START HERE
+1. Extract this ZIP and open the folder in VS Code.
+2. Open Terminal > New Terminal.
+3. Run: py -3.13 -m venv .venv
+4. Run: .venv\Scripts\Activate.ps1
+5. Run: pip install -r requirements.txt
+6. Run: python download_dataset.py (unless you already copied insurance.csv into data/raw/)
+7. Run: python 13_end_to_end.py
+8. Run: python 12_monitoring.py whenever you need monitoring.
+9. Run: uvicorn api:app --reload to start the prediction API.
+10. Read README.md for explanations of every step.
+Only Lab 12 and Lab 13 are implemented here.

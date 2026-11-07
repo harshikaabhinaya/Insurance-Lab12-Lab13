@@ -1,0 +1,7 @@
+feature,type,ks_statistic,p_value,psi,status
+age,numeric,0.0,1.0,0.0,STABLE
+bmi,numeric,0.0,1.0,0.0,STABLE
+children,numeric,0.0,1.0,0.0,STABLE
+sex,categorical,,1.0,,STABLE
+smoker,categorical,,1.0,,STABLE
+region,categorical,,1.0,,STABLE

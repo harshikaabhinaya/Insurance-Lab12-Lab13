@@ -1,0 +1,27 @@
+{
+    "pipeline_status": "passed",
+    "completed_at": "2026-11-07T08:24:20.423346+00:00",
+    "stages": [
+        {
+            "stage": "monitoring",
+            "status": "passed"
+        },
+        {
+            "stage": "retraining",
+            "status": "skipped_no_drift"
+        }
+    ],
+    "selected_model": "Gradient Boosting",
+    "selected_metrics": {
+        "model": "Gradient Boosting",
+        "mae": 2535.0620451569002,
+        "rmse": 4271.894267589475,
+        "r2": 0.9006885528992274
+    },
+    "drift_detected": false,
+    "incoming_batch_present_at_run": false,
+    "retraining_performed": false,
+    "archived_batch": null,
+    "model_artifact": "models\\best_insurance_model.joblib",
+    "deployment": "Local FastAPI service is available to start with uvicorn api:app --reload. No cloud deployment is claimed."
+}

@@ -1,0 +1,70 @@
+{
+    "timestamp": "2026-11-07T08:24:21.622740+00:00",
+    "source_dataset": "C:\\Users\\harshikaabhinaya\\Downloads\\insurance-lab12-lab13\\insurance-lab12-lab13\\data\\raw\\insurance.csv",
+    "rows_monitored": 1337,
+    "data_drift_detected": false,
+    "prediction_drift_detected": false,
+    "drift_detected": false,
+    "feature_drift": [
+        {
+            "feature": "age",
+            "type": "numeric",
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "psi": 0.0,
+            "status": "STABLE"
+        },
+        {
+            "feature": "bmi",
+            "type": "numeric",
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "psi": 0.0,
+            "status": "STABLE"
+        },
+        {
+            "feature": "children",
+            "type": "numeric",
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "psi": 0.0,
+            "status": "STABLE"
+        },
+        {
+            "feature": "sex",
+            "type": "categorical",
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        {
+            "feature": "smoker",
+            "type": "categorical",
+            "p_value": 1.0,
+            "status": "STABLE"
+        },
+        {
+            "feature": "region",
+            "type": "categorical",
+            "p_value": 1.0,
+            "status": "STABLE"
+        }
+    ],
+    "prediction_drift": {
+        "ks_statistic": 0.0,
+        "p_value": 1.0,
+        "status": "STABLE"
+    },
+    "performance": {
+        "mae": 2183.093380493843,
+        "rmse": 3917.4844626106437,
+        "r2": 0.8952810130480318,
+        "evaluated_rows": 1337,
+        "note": "Metrics are meaningful as a live holdout only when this batch was not used for model training."
+    },
+    "api_latency": {
+        "request_count": 4,
+        "average_ms": 7.72425,
+        "p95_ms": 13.862099999999998,
+        "max_ms": 14.721
+    }
+}
